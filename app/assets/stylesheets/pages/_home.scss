@@ -1,1 +1,29 @@
 // Specific CSS for your home-page
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  // position: fixed;
+  background-color: aliceblue;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+.banner {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.images {
+  max-width: 200px;
+}
