@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 
-.background-green {
-  background-color: #495D63;
+.background-white {
+  background-color: $white;
 }
 
 .top-nav {
@@ -14,7 +14,7 @@
   // align-items: center;
   justify-content: space-between;
   // // position: fixed;
-  background-color: #629677;
+  background-color: #5F6A6D;
   // margin-bottom: 40px;
   // padding: 5px;
   a {
@@ -24,14 +24,17 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #FAC8CD;
+    color: $pink;
   }
 }
 
-.banner {
+.container {
   margin: 0 auto;
-  margin-top: 60px;
   width: 80%;
+}
+
+#about {
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -44,7 +47,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #D7BCC8;
+  color: $pink;
+  h1 {
+    border-top: solid #98B6B1;
+    border-bottom: solid #98B6B1;
+    padding-top: 10px;
+  }
+  p {
+    border-bottom: solid #98B6B1;
+    padding-bottom: 10px;
+  }
 }
 
 .images {
@@ -77,13 +89,13 @@
   margin: 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: #FAC8CD;
+  color: $pink;
   img {
     width: 250px;
     object-fit: contain;
   }
   a {
     text-decoration: none;
-    color: #FAC8CD;
+    color: $pink;
   }
 }
