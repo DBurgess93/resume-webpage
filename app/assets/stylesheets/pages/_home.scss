@@ -4,7 +4,7 @@ li, a {
   font-family: 'Satoshi', sans-serif;
   font-weight: 500;
   font-size: 30px;
-  color: $pink;
+  color: $secondary;
   text-decoration: none;
 }
 
@@ -35,12 +35,16 @@ header {
     transition: all 0.3s ease 0s;
   }
   li a:hover {
-    color: red;
+    color: $blue;
   }
 }
 
 .background-white {
   background-color: $white;
+}
+
+.background-grey {
+  background-color: #5F6A6D;
 }
 
 .container {
@@ -62,19 +66,21 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: $pink;
   font-size: 50px;
   h1 {
-    border-top: solid #98B6B1;
+    border-top: solid $pink;
     padding-top: 10px;
     width: fit-content;
     font-size: 50px;
+    color: $gray;
+    margin-bottom: 5px;
   }
   p {
-    border-top: solid #98B6B1;
-    border-bottom: solid #98B6B1;
+    border-top: solid $pink;
+    border-bottom: solid $pink;
     padding-bottom: 10px;
     font-size: 40px;
+    color: $gray;
   }
 }
 
@@ -108,13 +114,13 @@ header {
   margin: 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: $pink;
+  color: $gray;
   img {
     width: 250px;
     object-fit: contain;
   }
   a {
     text-decoration: none;
-    color: $pink;
+    color: $gray;
   }
 }
