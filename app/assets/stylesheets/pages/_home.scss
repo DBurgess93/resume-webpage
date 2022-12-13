@@ -1,31 +1,46 @@
 // Specific CSS for your home-page
 
-.background-white {
-  background-color: $white;
+li, a {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: $pink;
+  text-decoration: none;
 }
 
-.top-nav {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
+header {
   display: flex;
-  // flex-direction: row;
-  // align-items: center;
   justify-content: space-between;
-  // // position: fixed;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 10%;
   background-color: #5F6A6D;
-  // margin-bottom: 40px;
-  // padding: 5px;
-  a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: $pink;
+  h2 {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 20px;
   }
+}
+
+.nav-links {
+  list-style: none;
+  li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  li:nth-child(1) {
+    padding: 0 20px 0 0;
+  }
+  li a {
+    transition: all 0.3s ease 0s;
+  }
+  li a:hover {
+    color: red;
+  }
+}
+
+.background-white {
+  background-color: $white;
 }
 
 .container {
@@ -34,7 +49,7 @@
 }
 
 #about {
-  margin-top: 60px;
+  // margin-top: 60px;
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -48,14 +63,18 @@
   flex-direction: column;
   justify-content: center;
   color: $pink;
+  font-size: 50px;
   h1 {
     border-top: solid #98B6B1;
-    border-bottom: solid #98B6B1;
     padding-top: 10px;
+    width: fit-content;
+    font-size: 50px;
   }
   p {
+    border-top: solid #98B6B1;
     border-bottom: solid #98B6B1;
     padding-bottom: 10px;
+    font-size: 40px;
   }
 }
 
