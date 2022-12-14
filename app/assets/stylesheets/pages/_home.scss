@@ -8,6 +8,14 @@ li, a {
   text-decoration: none;
 }
 
+h2 {
+  margin-bottom: 30px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: $primary;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -19,12 +27,6 @@ header {
   width: 100vw;
   top: 0;
   transition: top 0.3s;
-  // width: 100vw;
-  // h2 {
-  //   cursor: pointer;
-  //   margin-right: auto;
-  //   font-size: 20px;
-  // }
 }
 
 .nav-links {
@@ -69,24 +71,23 @@ header {
   justify-content: center;
   font-size: 50px;
   h1 {
-    // border-bottom: solid $blue;
-    padding-top: 10px;
-    // width: fit-content;
-    font-size: 50px;
+    font-size: 60px;
     color: $white;
-    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Satoshi', sans-serif;
   }
   h3 {
-    padding-bottom: 10px;
-    font-size: 25px;
-    color: $blue;
-  }
-  p{
-    // border-top: solid $blue;
-    // border-bottom: solid $blue;
-    padding-bottom: 10px;
-    font-size: 25px;
+    font-size: 60px;
     color: $white;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 100;
+  }
+  p {
+    font-size: 35px;
+    color: $blue;
+    font-family: 'Satoshi', sans-serif;
+    letter-spacing: 6px;
+    font-weight: 100;
   }
 }
 
@@ -101,28 +102,30 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
-  h2 {
-    margin-bottom: 30px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 100;
+  p {
+    font-size: 25px;
+    a {
+      font-size: 25px;
+      color: $pink;
+    }
+    a:hover {
+      color: $blue;
+    }
   }
   h6 {
     text-align: left;
+    color: $blue;
   }
 }
 
 #projects {
-  margin: 0 auto;
-  width: 80%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  h2 {
-    color: $white;
-    margin-bottom: 30px;
-    text-align: center;
-  }
+  align-items: center;
 }
 
 .cards {
@@ -168,9 +171,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h2 {
-    margin-bottom: 30px;
-  }
   ul {
     display: flex;
     justify-content: space-between;
@@ -185,4 +185,9 @@ header {
   li a:hover {
     color: $secondary;
   }
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: space-between;
 }
