@@ -13,7 +13,7 @@ h2 {
   font-family: 'Satoshi', sans-serif;
   font-weight: 500;
   font-size: 35px;
-  color: $primary;
+  color: $blue;
 }
 
 header {
@@ -63,7 +63,7 @@ header {
   width: 80%;
 }
 
-.intro {
+#intro {
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -116,10 +116,10 @@ header {
     font-size: 25px;
     a {
       font-size: 25px;
-      color: $pink;
+      color: $blue;
     }
     a:hover {
-      color: $blue;
+      color: $pink;
     }
   }
   h6 {
@@ -159,9 +159,10 @@ header {
   text-decoration: none;
   color: $white;
   transition: 0.3s;
-  // &:hover {
-  //   transform: scale(1.1);
-  // }
+  &:hover {
+    background-color: $blue;
+    opacity: 0.2;
+  }
   img {
     width: 300px;
     object-fit: contain;
@@ -189,6 +190,7 @@ header {
   font-weight: 100;
   p {
     font-size: 25px;
+    margin-bottom: 30px;
     a {
       font-size: 25px;
       color: $pink;
@@ -218,6 +220,25 @@ header {
   font-size: 20px;
   &:hover {
     transform: scale(1.2);
-    color: $blue;
+    color: $pink;
+    border: 1px solid $pink;
+  }
+}
+
+.secondary-button {
+  color: $primary;
+  border: 1px solid $primary;
+  padding: 8px 24px;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  &:hover {
+    transform: scale(1.2);
+    color: $primary;
   }
 }
