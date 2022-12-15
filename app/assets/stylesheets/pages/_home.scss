@@ -1,12 +1,12 @@
 // Specific CSS for your home-page
 
-li, a {
-  font-family: 'Satoshi', sans-serif;
-  font-weight: 500;
-  font-size: 30px;
-  color: $primary;
-  text-decoration: none;
-}
+// li, a {
+//   font-family: 'Satoshi', sans-serif;
+//   font-weight: 500;
+//   font-size: 30px;
+//   color: $primary;
+//   text-decoration: none;
+// }
 
 h2 {
   margin-bottom: 30px;
@@ -21,12 +21,19 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px 10%;
+  padding: 30px 5%;
   background-color: $black;
   position: fixed;
   width: 100vw;
   top: 0;
   transition: top 0.3s;
+  li, a {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: $primary;
+    text-decoration: none;
+  }
 }
 
 .nav-links {
@@ -89,6 +96,7 @@ header {
     letter-spacing: 6px;
     font-weight: 100;
   }
+
 }
 
 .images {
@@ -140,7 +148,7 @@ header {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  // width: 300px;
+  width: 80vw;
   height: auto;
   // border: 2px solid $blue;
   box-shadow: 0px 1px 5px $gray;
@@ -155,22 +163,31 @@ header {
   //   transform: scale(1.1);
   // }
   img {
-    width: 250px;
+    width: 300px;
     object-fit: contain;
   }
   a {
     text-decoration: none;
     color: $gray;
   }
+
+}
+
+.stack {
+  display: flex;
+  border: 0.5 solid $blue;
+  border-radius: 15px;
 }
 
 #contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 10%;
+  background-color: $black;
   color: $white;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   ul {
     display: flex;
     justify-content: space-between;
@@ -189,5 +206,6 @@ header {
 
 .contact-logos {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
