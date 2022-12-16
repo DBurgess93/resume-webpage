@@ -291,3 +291,13 @@ header {
     color: $primary;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
+  font-size: 12px;
+  position: relative;
+  bottom: 2em;
+}
