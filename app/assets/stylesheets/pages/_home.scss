@@ -62,6 +62,7 @@ header {
 .container {
   margin: 0 auto;
   width: 80%;
+  // display: grid;
 }
 
 #intro {
@@ -300,4 +301,65 @@ header {
   font-size: 12px;
   position: relative;
   bottom: 2  em;
+}
+
+@media(max-width: 400px) {
+  .headings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    li:nth-child(1) {
+      padding: 0 0 0 20px;
+    }
+  }
+
+  header {
+    justify-content: center;
+    position: relative;
+    padding: 6px 5%;
+  }
+
+  .tech-stack ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .title {
+    margin-bottom: 100px;
+  }
+
+  #about {
+    margin-top: 40px;
+    margin-bottom: 170px;
+  }
+
+  #projects {
+    margin-top: 40px;
+  }
+
+
+  .project-card {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 50%;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+
+  #contact {
+    height: 100vh;
+    margin-top: -160px;
+  }
+
+  .cards a {
+    margin-bottom: 5px;
+  }
 }
