@@ -341,7 +341,6 @@ header {
   #about {
     margin-top: 80px;
     margin-bottom: 80px;
-    // margin-bottom: 170px;
     height: auto;
 
   }
@@ -350,7 +349,6 @@ header {
     margin-top: 80px;
     margin-bottom: 80px;
     height: auto;
-
   }
 
 
@@ -369,9 +367,12 @@ header {
   #contact {
     height: 100vh;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
     height: auto;
+  }
 
+  .footer {
+    padding-bottom: 100px;
   }
 
   .cards a {
