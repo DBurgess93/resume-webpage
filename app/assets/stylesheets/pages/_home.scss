@@ -15,7 +15,7 @@
 
 h2 {
   margin-bottom: 30px;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 500;
   font-size: 35px;
   color: $primary;
@@ -33,8 +33,9 @@ header {
   width: 100vw;
   top: 0;
   transition: top 0.3s;
-  li, a {
-    font-family: 'Satoshi', sans-serif;
+  li,
+  a {
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
     font-size: 30px;
     color: $primary;
@@ -86,22 +87,21 @@ header {
     font-size: 60px;
     color: $white;
     font-weight: 500;
-    font-family: 'Satoshi', sans-serif;
+    font-family: "Satoshi", sans-serif;
   }
   h3 {
     font-size: 60px;
     color: $white;
-    font-family: 'Satoshi', sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 100;
   }
   p {
     font-size: 35px;
     color: $blue;
-    font-family: 'Satoshi', sans-serif;
+    font-family: "Satoshi", sans-serif;
     letter-spacing: 6px;
     font-weight: 100;
   }
-
 }
 
 .images {
@@ -115,7 +115,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 100;
   p {
     font-size: 25px;
@@ -165,7 +165,7 @@ header {
 .project-card {
   overflow: hidden;
   padding: 16px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   box-shadow: 0px 1px 5px $gray;
   border-radius: 5px;
@@ -229,7 +229,7 @@ header {
     border: 1px solid $blue;
     border-radius: 12px;
     padding: 4px 8px;
-    }
+  }
 }
 
 #contact {
@@ -239,11 +239,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 100;
   p {
     font-size: 25px;
     margin-bottom: 30px;
+    text-align: center;
     a {
       font-size: 25px;
       color: $pink;
@@ -307,7 +308,7 @@ header {
   margin-top: 70px;
 }
 
-@media(max-width: 920px){
+@media (max-width: 920px) {
   .headings {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -342,7 +343,6 @@ header {
     margin-top: 80px;
     margin-bottom: 80px;
     height: auto;
-
   }
 
   #projects {
@@ -350,7 +350,6 @@ header {
     margin-bottom: 80px;
     height: auto;
   }
-
 
   .project-card {
     width: 330px;
