@@ -89,6 +89,13 @@ header {
     letter-spacing: 6px;
     font-weight: 100;
   }
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    &:hover {
+      font-weight: bold;
+    }
+  }
 }
 
 .images {
