@@ -181,6 +181,11 @@ header {
     width: auto;
     object-fit: cover;
   }
+  video {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
 
   h3 {
     font-size: 16px;
