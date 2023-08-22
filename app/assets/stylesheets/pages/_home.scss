@@ -174,7 +174,6 @@ header {
   margin-bottom: 10px;
   &:hover {
     background-color: rgba(75, 142, 195, 0.8);
-    cursor: pointer;
   }
   img {
     height: 100%;
@@ -209,8 +208,16 @@ header {
   flex-direction: column;
   justify-content: space-between;
   padding: 16px;
+  overflow: auto;
   p {
     text-decoration: none;
+    color: $white;
+  }
+  h3 {
+    color: $white;
+    &:hover {
+      color: $blue;
+    }
   }
 }
 
